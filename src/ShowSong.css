@@ -1,0 +1,14 @@
+.show_song{
+    margin: 10px;
+}
+div.a {
+    white-space: nowrap; 
+    width: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.show_song_bottom > img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}

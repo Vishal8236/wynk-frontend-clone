@@ -1,0 +1,65 @@
+.header{
+    border-top: 3px solid red;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 9px -7px rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .header > img{
+   height: 100px;
+   width: 100px; 
+} */
+.header_left{
+    display: flex;
+}
+.header_link_option{
+    flex-direction: column;
+    margin: 10px;
+    font-size: medium;
+}
+.header_input{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid black;
+}
+.header_input > input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0px;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_right_link{
+    margin-left: 25px;
+}
+.dropdown_contant_myMusic{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.mymusic{
+    position: relative;
+    display: inline-block;
+}
+.mymusic:hover  .dropdown_contant_myMusic{
+   display: block;
+}
+.dropdown_contant_myMusic > h3{
+    color: black;
+    text-decoration: none;
+    display: block;
+}

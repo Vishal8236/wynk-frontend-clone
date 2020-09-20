@@ -1,0 +1,23 @@
+.all_songs{
+    display: flex;
+}
+.punjabi_song{
+    margin-right: 70px;
+    margin-left: 70px;
+    padding: 10px;
+}
+.show_song_top{
+    display: flex;
+    align-items: center;
+    
+}
+.show_song_top > p{
+    margin-left: 900px;
+    color: red;
+}
+.show_song_top > p:hover{
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+}
